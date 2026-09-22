@@ -64,7 +64,7 @@ def generer_classement(code_competition, nom_dossier, noms_courts, logos_persona
             "LOGO": logo
         })
 
-    # Toujours remettre les clubs dans l'ordre du classement
+    # Toujours remettre les clubs dans l'ordre du classement ok
     classement.sort(
         key=lambda club: club["POS"]
     )
